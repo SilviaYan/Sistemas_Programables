@@ -30,6 +30,7 @@ void loop() {
  }
 
    void cambioLuces(){
+    delay(5000); //espera 5 segundos antes de que pase el peaton para que pasen los coches
     digitalWrite(cochesVerde, LOW); // apaga verde coches
     digitalWrite(cochesAmarillo, HIGH); // enciende amarillo coches
     delay(2000); // el ciclo se detiene 2 segundos
